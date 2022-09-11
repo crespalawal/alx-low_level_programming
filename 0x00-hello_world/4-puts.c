@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/*
- *  main entry point takes no args
- * the program prints to the std output using puts functions instead of printf
- * it returns success(0) always
+/**
+ * main - entry point takes no args
+ * Description: the program prints to the std output using p * uts instead of printf
+ * Return:  success(0) always
  */
-int main(void) /*main function*/
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle \n");
 
