@@ -2,9 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* main - prints positive, zero or negative */
-
-/* Return: always 0 for success */
+/**
+ * main - display as on number line
+ * Description: outputs positive, zero or negative
+ * depending on the relation to zero
+ *
+ * Return: always 0 for success
+ */
 
 int main(void)
 {
