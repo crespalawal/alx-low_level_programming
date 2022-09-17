@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * main - draws a triangle
+ * print_triangle - draws a triangle
  * @size: integer size
  * Return: nothing
  */
 
-void main(int size)
+void print_triangle(int size)
 {
 	int i, j;
 
