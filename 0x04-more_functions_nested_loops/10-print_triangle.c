@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_triangle - draws a triangle
+ * main - draws a triangle
  * @size: integer size
  * Return: nothing
  */
