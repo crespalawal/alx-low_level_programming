@@ -8,14 +8,18 @@
 
 int main(void)
 {
-	int i;
+	int i, j;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(i);
-		if (i == 57)
+		for (j = i + 1; j < 10; j++)
 		{
-			break;
+		putchar(i % 10 + '0');
+		putchar(j % 10 + '0');
+		}
+		if (i == 8 && j == 9)
+		{
+			continue;
 		}
 		putchar(',');
 		putchar(' ');
