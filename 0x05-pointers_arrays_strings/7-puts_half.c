@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * puts_half- prints half of string
+ * puts_half - prints half of string
  * @str: parameter
  *
  */
@@ -13,7 +13,7 @@ void puts_half(char *str)
 	int j;
 	int len;
 
-	len = strlen(*str);
+	len = strlen(str);
 	n = ((len - 1) / 2);
 	i = len / 2;
 	j = len - i;
