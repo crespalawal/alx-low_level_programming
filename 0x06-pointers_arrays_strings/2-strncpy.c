@@ -7,7 +7,9 @@
  * @n: integer parameter
  * Return: returns concatenated str
  */
-char *_strncat(char *dest, char *src, int n)
+void main()
+{
+	char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 
@@ -16,4 +18,5 @@ char *_strncat(char *dest, char *src, int n)
 	for (; i < n; i++)
 		dest[i] = '\0';
 	return (dest);
+}
 }
