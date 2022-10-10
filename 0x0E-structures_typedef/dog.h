@@ -2,18 +2,18 @@
 #define MAIN_H
 
 /**
-  5  * struct dog - new type
-  6  * @name: string variable
-  7  * @age: integer variable                                8  * @owner: string/char
-  9  *
- 10  * Description: create a new type
- 11  */
- 12
- 13 struct dog{
- 14         char *name;
- 15         float *age;
- 16         char *owner;
- 17 };
+ * struct dog - new type
+ * @name: string variable
+ * @age: integer variable
+ * @owner: char/string variable
+ * Description: create a new type
+ */
+
+struct dog{
+	char *name;
+ 	float *age;
+	char *owner;
+ };
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
