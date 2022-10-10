@@ -7,7 +7,7 @@
  * @age: 2nd member
  * @owner: 3rd member
  * @d: pointer to structure
- * 
+ *
  * Return: void
  */
 
